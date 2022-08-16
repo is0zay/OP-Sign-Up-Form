@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="no-form">
+            <h1 class="title">Photo&Video Services <img src="camera-512.png" alt="" height="40"></h1>
+        </div>
+
+        <div class="form">
+            <div class="form-top">
+                <p>This is not a real online service! You know you need something like this in your lIfe to help you realize your deepest dreams. Sign up <em>now</em> to get started.<br><br>You <em>know</em> you want to</p>
+            </div>
+            <div class="form-middle">
+
+                <form action="#" method="post">
+                    <fieldset class="for-form">
+                        <h3 class="form-head">Let's Do This !</h3>
+                        <div class="form-area">
+
+                            <div class="fName-div">
+                                <label for="first_name">*First Name</label>
+                                <input type="text" id="first_name" required>
+                            </div>
+
+                            <div class="lName-div">
+                                <label for="last_name">*Last Name</label>
+                                <input type="text" id="last_name" required>
+                            </div>
+
+                            <div class="email-div">
+                                <label for="user_email">*Email Address</label>
+                                <input type="email" id="user_email" name="email" placeholder="random@example.com" title="enter valid email" required>
+                            </div>
+
+                            <div class="phone-div">
+                                <label for="user_phone">Phone Number</label>
+                                <input type="tel" id="user_phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="000-000-0000" title="format not valid">
+                            </div>
+
+                            <div class="password-div">
+                                <label for="user_password">*Password</label>
+                                <input type="password" id="user_password" name="password" required>
+                            </div>
+
+                            <div class="confirmpass-div">
+                                <label for="user_password">*Confirm Password</label>
+                                <input type="password" id="confirm-password" name="confirm-password" required>
+                            </div>
+
+                        </div>
+
+                        </fieldset>
+                <div class="form-bottom"> 
+                            <button type="Submit" class="createBtn">Create Account</button>
+                            <p>Already have an account? <a href="#">Log in</a></p>
+                 </div>   
+                
+                </form>
+            </div>
+
+        </div>
+
+    </div>
+</body>
+</html>
